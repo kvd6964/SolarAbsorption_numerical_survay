@@ -9,7 +9,7 @@ efficiency = 0.33; % Estimated solar still efficiency
 absorptivity_glass = 0.85; % Glass cover absorptivity factor
 
 % Seasonal settings
-day_of_year = 172; % June 21 (Summer Solstice)
+day_of_year = 172; % For example June 21 (Summer Solstice)
 declination = 23.45 * sind((360 / 365) * (284 + day_of_year)); % Solar declination angle (degrees)
 
 % Arrays to store absorption data
