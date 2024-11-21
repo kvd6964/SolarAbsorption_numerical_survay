@@ -2,11 +2,11 @@
 
 % Parameters and location settings
 latitude = 35.9; % Latitude of the study location (Karaj, Iran)
-solar_constant = 945; % Average solar constant (W/m^2)
+solar_constant = 945; % solar constant at 12 (W/m^2)
 hours = 10.5:1:16.5; % Active hours for solar measurement (10:30 AM to 4:30 PM)
 inclination_angles = 10:10:50; % Tested inclination angles (degrees)
-efficiency = 0.33; % Estimated solar still efficiency
-absorptivity_glass = 0.85; % Glass cover absorptivity factor
+efficiency = 0.33; % Estimated conventional solar still efficiency
+absorptivity_glass = 0.85; % cover absorptivity factor
 
 % Seasonal settings
 day_of_year = 172; % For example June 21 (Summer Solstice)
